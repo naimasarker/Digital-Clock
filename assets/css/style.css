@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#dclock{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    background-color: floralwhite;
+}
+.clock{
+    width: 500px;
+    height: 170px;
+    border-radius: 11px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(40, 39, 39);
+    background-color: white;
+}
+.time {
+    width: 80px;
+    height: 80px;
+    border-radius: 11px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgb(40, 39, 39);
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    /* padding: 20px; */
+    line-height: 76px;
+    background-color: floralwhite;
+}
